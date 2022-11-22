@@ -1,5 +1,5 @@
 {
-    "name": "elogic-co/magento-import",
+    "name": "elogic-co/import-magento",
     "description": "Run import from csv to database table and vise versa. You can extend functionality",
     "require": {
         "magento/framework": "*",
