@@ -1,13 +1,13 @@
 <?php
 
-namespace ElogicCo\MagentoImport\Model\Database\DataImporter;
+namespace ElogicCo\ImportMagento\Model\Database\DataImporter;
 
-use ElogicCo\MagentoImport\Api\Data\DataImportInfoInterface;
-use ElogicCo\MagentoImport\Api\DataImporter\ImporterBaseInterface;
-use ElogicCo\MagentoImport\Api\Extensions\ApplyObserverInterfaceFactory;
-use ElogicCo\MagentoImport\Api\Extensions\ImportWithProgressBarInterface;
-use ElogicCo\MagentoImport\Model\Extensions\ProgressBarWrapper;
-use ElogicCo\MagentoImport\Model\Mapper\DefaultMapping;
+use ElogicCo\ImportMagento\Api\Data\DataImportInfoInterface;
+use ElogicCo\ImportMagento\Api\DataImporter\ImporterBaseInterface;
+use ElogicCo\ImportMagento\Api\Extensions\ApplyObserverInterfaceFactory;
+use ElogicCo\ImportMagento\Api\Extensions\ImportWithProgressBarInterface;
+use ElogicCo\ImportMagento\Model\Extensions\ProgressBarWrapper;
+use ElogicCo\ImportMagento\Model\Mapper\DefaultMapping;
 use Magento\Framework\DB\Adapter\AdapterInterface;
 use Magento\Framework\Setup\ModuleDataSetupInterface;
 

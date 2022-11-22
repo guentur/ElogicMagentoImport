@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ElogicCo\MagentoImport\Api\DataProvider;
+namespace ElogicCo\ImportMagento\Api\DataProvider;
 
 interface TableDataProviderInterface extends DataProviderInterface
 {

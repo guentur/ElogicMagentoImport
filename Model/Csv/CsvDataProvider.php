@@ -1,9 +1,9 @@
 <?php
 
-namespace ElogicCo\MagentoImport\Model\Csv;
+namespace ElogicCo\ImportMagento\Model\Csv;
 
-use ElogicCo\MagentoImport\Api\DataProvider\TableDataProviderInterface;
-use ElogicCo\MagentoImport\Model\Csv\Validator\CsvFileValidator;
+use ElogicCo\ImportMagento\Api\DataProvider\TableDataProviderInterface;
+use ElogicCo\ImportMagento\Model\Csv\Validator\CsvFileValidator;
 
 class CsvDataProvider implements TableDataProviderInterface
 {

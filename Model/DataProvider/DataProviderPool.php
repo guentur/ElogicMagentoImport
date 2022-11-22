@@ -1,9 +1,9 @@
 <?php
 
-namespace ElogicCo\MagentoImport\Model\DataProvider;
+namespace ElogicCo\ImportMagento\Model\DataProvider;
 
-use ElogicCo\MagentoImport\Api\DataProvider\DataProviderInterface;
-use ElogicCo\MagentoImport\Api\DataProvider\DataProviderPoolInterface;
+use ElogicCo\ImportMagento\Api\DataProvider\DataProviderInterface;
+use ElogicCo\ImportMagento\Api\DataProvider\DataProviderPoolInterface;
 use InvalidArgumentException;
 use Magento\Framework\Exception\LocalizedException;
 

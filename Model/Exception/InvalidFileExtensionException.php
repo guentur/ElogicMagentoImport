@@ -1,6 +1,6 @@
 <?php
 
-namespace ElogicCo\MagentoImport\Model\Exception;
+namespace ElogicCo\ImportMagento\Model\Exception;
 
 use Symfony\Component\Filesystem\Exception\IOException;
 

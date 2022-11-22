@@ -1,9 +1,9 @@
 <?php
 
-namespace ElogicCo\MagentoImport\Model;
+namespace ElogicCo\ImportMagento\Model;
 
-use ElogicCo\MagentoImport\Api\Data\DataImportInfoInterface;
-use ElogicCo\MagentoImport\Model\Mapper\DefaultMapping;
+use ElogicCo\ImportMagento\Api\Data\DataImportInfoInterface;
+use ElogicCo\ImportMagento\Model\Mapper\DefaultMapping;
 
 class EntityScopeManager
 {

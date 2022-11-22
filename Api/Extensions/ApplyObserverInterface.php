@@ -1,8 +1,8 @@
 <?php
 
-namespace ElogicCo\MagentoImport\Api\Extensions;
+namespace ElogicCo\ImportMagento\Api\Extensions;
 
-use ElogicCo\MagentoImport\Api\Data\DataImportInfoInterface;
+use ElogicCo\ImportMagento\Api\Data\DataImportInfoInterface;
 
 interface ApplyObserverInterface
 {

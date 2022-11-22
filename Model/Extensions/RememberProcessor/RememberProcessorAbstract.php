@@ -1,16 +1,16 @@
 <?php
 
-namespace ElogicCo\MagentoImport\Model\Extensions\RememberProcessor;
+namespace ElogicCo\ImportMagento\Model\Extensions\RememberProcessor;
 
-use ElogicCo\MagentoImport\Api\Data\DataImportInfoInterface;
-use ElogicCo\MagentoImport\Api\Data\DataImportInfoInterfaceFactory;
-use ElogicCo\MagentoImport\Api\DataImporter\DataImporterPoolInterface;
-use ElogicCo\MagentoImport\Api\DataProvider\DataProviderPoolInterface;
-use ElogicCo\MagentoImport\Model\EntityManager;
-use ElogicCo\MagentoImport\Model\EntityScopeManager;
-use ElogicCo\MagentoImport\Model\Solver\StorageSolverPool;
+use ElogicCo\ImportMagento\Api\Data\DataImportInfoInterface;
+use ElogicCo\ImportMagento\Api\Data\DataImportInfoInterfaceFactory;
+use ElogicCo\ImportMagento\Api\DataImporter\DataImporterPoolInterface;
+use ElogicCo\ImportMagento\Api\DataProvider\DataProviderPoolInterface;
+use ElogicCo\ImportMagento\Model\EntityManager;
+use ElogicCo\ImportMagento\Model\EntityScopeManager;
+use ElogicCo\ImportMagento\Model\Solver\StorageSolverPool;
 use Symfony\Component\Filesystem\Exception\FileNotFoundException;
-use ElogicCo\MagentoImport\Api\Extensions\RememberProcessor\RememberedEntitiesProviderInterface;
+use ElogicCo\ImportMagento\Api\Extensions\RememberProcessor\RememberedEntitiesProviderInterface;
 
 abstract class RememberProcessorAbstract implements RememberedEntitiesProviderInterface
 {
@@ -123,7 +123,7 @@ abstract class RememberProcessorAbstract implements RememberedEntitiesProviderIn
 //        // if we don't remember failed entity while import remembered entities data there is not required path to data-provider
 //        $dataImportInfo->setPathToRecipient($this->rememberedEntitiesStoragePath);
 //
-//        /** @var \ElogicCo\MagentoImport\Api\DataImporter\DataImporterInterface $dataImporter */
+//        /** @var \ElogicCo\ImportMagento\Api\DataImporter\DataImporterInterface $dataImporter */
 //        $dataImporter = $this->dataImporterPool->getDataImporter($this->rememberedEntitiesStorageType);
 //        $dataImporter->setDataImportInfo($dataImportInfo);
 //        $dataImporter->importData($allRememberedEntities);

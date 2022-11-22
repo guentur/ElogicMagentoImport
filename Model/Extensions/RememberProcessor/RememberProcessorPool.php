@@ -1,9 +1,9 @@
 <?php
 
-namespace ElogicCo\MagentoImport\Model\Extensions\RememberProcessor;
+namespace ElogicCo\ImportMagento\Model\Extensions\RememberProcessor;
 
-use ElogicCo\MagentoImport\Api\Extensions\RememberProcessor\RememberProcessorPoolInterface;
-use ElogicCo\MagentoImport\Api\Extensions\RememberProcessor\RememberProcessorInterface;
+use ElogicCo\ImportMagento\Api\Extensions\RememberProcessor\RememberProcessorPoolInterface;
+use ElogicCo\ImportMagento\Api\Extensions\RememberProcessor\RememberProcessorInterface;
 use Magento\Framework\Exception\LocalizedException;
 
 class RememberProcessorPool implements RememberProcessorPoolInterface

@@ -1,8 +1,8 @@
 <?php
 
-namespace ElogicCo\MagentoImport\Model\Database;
+namespace ElogicCo\ImportMagento\Model\Database;
 
-use ElogicCo\MagentoImport\Api\DataProvider\TableDataProviderInterface;
+use ElogicCo\ImportMagento\Api\DataProvider\TableDataProviderInterface;
 use Magento\Framework\Setup\ModuleDataSetupInterface;
 
 class DbDataProvider implements TableDataProviderInterface

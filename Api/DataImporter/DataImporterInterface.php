@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace ElogicCo\MagentoImport\Api\DataImporter;
+namespace ElogicCo\ImportMagento\Api\DataImporter;
 
-use ElogicCo\MagentoImport\Api\Data\DataImportInfoInterface;
+use ElogicCo\ImportMagento\Api\Data\DataImportInfoInterface;
 
 interface DataImporterInterface
 {

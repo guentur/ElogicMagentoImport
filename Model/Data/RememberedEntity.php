@@ -1,11 +1,11 @@
 <?php
 
-namespace ElogicCo\MagentoImport\Model\Data;
+namespace ElogicCo\ImportMagento\Model\Data;
 
-use ElogicCo\MagentoImport\Api\Data\DataImportInfoInterface;
+use ElogicCo\ImportMagento\Api\Data\DataImportInfoInterface;
 use Magento\Framework\Api\AbstractSimpleObject;
-use ElogicCo\MagentoImport\Api\Data\RememberedEntityInterface;
-use ElogicCo\MagentoImport\Model\ResourceModel\RememberedEntity as RememberedEntityResource;
+use ElogicCo\ImportMagento\Api\Data\RememberedEntityInterface;
+use ElogicCo\ImportMagento\Model\ResourceModel\RememberedEntity as RememberedEntityResource;
 use Magento\Framework\Api\AbstractExtensibleObject;
 
 class RememberedEntity extends AbstractSimpleObject implements RememberedEntityInterface

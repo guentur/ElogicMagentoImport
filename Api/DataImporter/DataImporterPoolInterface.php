@@ -1,12 +1,12 @@
 <?php
 
-namespace ElogicCo\MagentoImport\Api\DataImporter;
+namespace ElogicCo\ImportMagento\Api\DataImporter;
 
 interface DataImporterPoolInterface
 {
     /**
      * @param string $type
-     * @return \ElogicCo\MagentoImport\Api\DataImporter\DataImporterInterface
+     * @return \ElogicCo\ImportMagento\Api\DataImporter\DataImporterInterface
      */
     public function getDataImporter(string $type): DataImporterInterface;
 }

@@ -1,18 +1,18 @@
 <?php
 
-namespace ElogicCo\MagentoImport\Model;
+namespace ElogicCo\ImportMagento\Model;
 
-use ElogicCo\MagentoImport\Api\Data\RememberedEntitySearchResultInterface;
-use ElogicCo\MagentoImport\Api\Data\RememberedEntitySearchResultInterfaceFactory;
-use ElogicCo\MagentoImport\Api\RememberedEntityRepositoryInterface;
-use ElogicCo\MagentoImport\Model\ResourceModel\RememberedEntity as RememberedEntityResource;
-use ElogicCo\MagentoImport\Model\ResourceModel\RememberedEntity\CollectionFactory as RememberedEntityCollectionFactory;
-use ElogicCo\MagentoImport\Model\RememberedEntityFactory;
+use ElogicCo\ImportMagento\Api\Data\RememberedEntitySearchResultInterface;
+use ElogicCo\ImportMagento\Api\Data\RememberedEntitySearchResultInterfaceFactory;
+use ElogicCo\ImportMagento\Api\RememberedEntityRepositoryInterface;
+use ElogicCo\ImportMagento\Model\ResourceModel\RememberedEntity as RememberedEntityResource;
+use ElogicCo\ImportMagento\Model\ResourceModel\RememberedEntity\CollectionFactory as RememberedEntityCollectionFactory;
+use ElogicCo\ImportMagento\Model\RememberedEntityFactory;
 use Magento\Framework\Api\SearchCriteria\CollectionProcessorInterface;
 use Magento\Framework\Api\SearchCriteriaInterface;
 use Magento\Framework\Exception\CouldNotDeleteException;
 use Magento\Framework\Exception\CouldNotSaveException;
-use ElogicCo\MagentoImport\Api\Data\RememberedEntityInterface;
+use ElogicCo\ImportMagento\Api\Data\RememberedEntityInterface;
 use Magento\Framework\Api\ExtensionAttribute\JoinProcessorInterface;
 
 class RememberedEntityRepository implements RememberedEntityRepositoryInterface
@@ -118,7 +118,7 @@ class RememberedEntityRepository implements RememberedEntityRepositoryInterface
      */
     public function getList(SearchCriteriaInterface $searchCriteria): RememberedEntitySearchResultInterface
     {
-        /** @var \ElogicCo\MagentoImport\Api\Data\RememberedEntitySearchResultInterface $searchResults */
+        /** @var \ElogicCo\ImportMagento\Api\Data\RememberedEntitySearchResultInterface $searchResults */
         $searchResults = $this->searchResultFactory->create();
         $searchResults->setSearchCriteria($searchCriteria);
         /** @var \Magento\Customer\Model\ResourceModel\Customer\Collection $collection */
@@ -128,7 +128,7 @@ class RememberedEntityRepository implements RememberedEntityRepositoryInterface
         $searchResults->setTotalCount($collection->getSize());
 
         $rememberedEntities = [];
-        /** @var \ElogicCo\MagentoImport\Model\RememberedEntity $rememberedEntityModel */
+        /** @var \ElogicCo\ImportMagento\Model\RememberedEntity $rememberedEntityModel */
         foreach ($collection as $rememberedEntityModel) {
             $rememberedEntities[] = $rememberedEntityModel->getDataModel();
         }

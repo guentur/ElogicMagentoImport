@@ -1,10 +1,10 @@
 <?php
 
-namespace ElogicCo\MagentoImport\Api;
+namespace ElogicCo\ImportMagento\Api;
 
-use ElogicCo\MagentoImport\Api\Data\RememberedEntityInterface;
+use ElogicCo\ImportMagento\Api\Data\RememberedEntityInterface;
 use Magento\Framework\Api\SearchCriteriaInterface;
-use ElogicCo\MagentoImport\Api\Data\RememberedEntitySearchResultInterface;
+use ElogicCo\ImportMagento\Api\Data\RememberedEntitySearchResultInterface;
 
 /**
  * @api

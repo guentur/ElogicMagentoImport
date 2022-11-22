@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ElogicCo\MagentoImport\Api\Data;
+namespace ElogicCo\ImportMagento\Api\Data;
 
 use Magento\Framework\Api\ExtensibleDataInterface;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace ElogicCo\MagentoImport\Model\Extensions;
+namespace ElogicCo\ImportMagento\Model\Extensions;
 
-use ElogicCo\MagentoImport\Api\Extensions\ApplyObserverInterface;
+use ElogicCo\ImportMagento\Api\Extensions\ApplyObserverInterface;
 use Magento\Framework\DataObject;
-use ElogicCo\MagentoImport\Api\Data\DataImportInfoInterface;
+use ElogicCo\ImportMagento\Api\Data\DataImportInfoInterface;
 use Magento\Framework\Event\ManagerInterface;
 
 class ApplyObserver implements ApplyObserverInterface

@@ -1,8 +1,8 @@
 <?php
 
-namespace ElogicCo\MagentoImport\Model\Solver;
+namespace ElogicCo\ImportMagento\Model\Solver;
 
-use ElogicCo\MagentoImport\Api\EntitiesStorageSolverInterface;
+use ElogicCo\ImportMagento\Api\EntitiesStorageSolverInterface;
 use Magento\Framework\Exception\LocalizedException;
 
 class StorageSolverPool
